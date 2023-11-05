@@ -1,4 +1,6 @@
 .env
 /credentials.json
 /client_secret.json
+/authorized_user.json
+```
 ```
