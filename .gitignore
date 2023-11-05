@@ -1,4 +1,4 @@
 .env
-/scraper.json
+/credentials.json
 /client_secret.json
 ```
