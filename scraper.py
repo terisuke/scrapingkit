@@ -2,7 +2,7 @@ import logging
 import gspread
 from gspread.exceptions import *
 import time
-from oauth2client.service_account import ServiceAccountCredentials
+from google_auth_oauthlib.flow import InstalledAppFlow
 from selenium import webdriver
 from selenium.common.exceptions import (NoSuchElementException, TimeoutException, WebDriverException)
 from selenium.webdriver.chrome.options import Options
@@ -11,6 +11,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
+from oauth2client.service_account import ServiceAccountCredentials
 
 # Configure logging at the start
 logging.basicConfig(level=logging.INFO)
