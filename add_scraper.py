@@ -18,7 +18,7 @@ WebDriverWait(browser, 10).until(
 elem_start_btn = browser.find_element(By.XPATH,"//input[@id='id_btnSearch' and @src='jsp/img/button/search_button.gif']")
 elem_start_btn.click()
 target_page = 1739
-current_page = 1727
+current_page = 1
 output_path = '/Users/teradakousuke/Library/Mobile Documents/com~apple~CloudDocs/Scriping tool/hellowork.csv'
 data = []
 try:
